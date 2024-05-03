@@ -25,12 +25,14 @@ module.exports = {
      "pip install -r requirements.txt"
       ]
     }
- },{
-    method: "fs.link",
-    params: {
-      venv: "app/env"
-    }
-   },{
+ },
+ // {
+  //  method: "fs.link",
+   // params: {
+    //  venv: "app/env"
+   //   }
+  // },
+  {
     method: "fs.download",
     params: {
       uri: "https://huggingface.co/ZJYang/AniPortrait/resolve/main/audio2mesh.pt",
